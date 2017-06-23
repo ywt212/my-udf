@@ -32,6 +32,7 @@ public final class MD5 extends UDF {
         }
         return null;
     }
+
 //    //测试的main方法
 //    public static void main(String[] args) throws Exception{
 //        MD5 fes = new MD5();
