@@ -16,6 +16,8 @@ public final class MD5 extends UDF {
             return null;
         }
         try {
+
+
             MessageDigest md = MessageDigest.getInstance("MD5");
             md.update(s.toString().getBytes("UTF8"));
             byte[] md5hash = md.digest();
